@@ -1,63 +1,83 @@
 ﻿@page
 @model WebApplication2.rUsuariosModel
 @{
-    ViewData["Title"] = "rUsuarios";
+    ViewData["Title"] = "Registro de Usuarios";
 }
 
+
 <h1>Registro de usuario</h1>
-    
-    <div class="form-group row">
+<div class="container">
+    <div class="row">
+        <div class="form-group row">
 
-        <div class="ancho">
-            <label for="Id">Id:</label>
-            <input type="number" class="form-control " id="Id">
-            <button type="button" class="btn btn-primary float-left ">Buscar</button>
+            <div class="ancho">
+                <label for="Id">Id:</label>
+                <input type="number" class="form-control " id="Id">
 
+            </div>
         </div>
-    </div>
-    <div class="form-group row">
-        
-        <div class="col col-xs-4">
-            <label for="Nom">Nombre:</label>
-            <input type="text" class="form-control" id="Nombre">
-        </div>
-    </div>
-    <div class="form-group row">
-        <div class="col-xs-4">
-            <label for="Usu">Usuario:</label>
-            <input type="text" class="form-control" id="Usuario">
-        </div>
-    </div>
-    <div class="form-group row ">
-        <div class="col-xs-4">
-            <label for="Correo">Correo:</label>
-            <input type="email" class="form-control" id="Usuario">
-        </div>
-    </div>
 
-    <div class="form-group row">
-        <div class="col-xs-4">
-            <label for="Contrasena">Contrasena:</label>
-            <input type="password" class="form-control" id="con">
+        <div>
+            <button type="button" class="btn btn-primary float-left ">
+                <span class="glyphicon glyphicon-search "></span> Buscar
+            </button>
         </div>
-    </div>
-    <div class="form-group row">
-        <div class="col-xs-4">
-            <label for="Telefono">Telefono:</label>
-            <input type="text" class="form-control" id="tel">
+
+
+        <div class="form-group row">
+
+            <div class="col col-xs-4">
+                <label for="Nom">Nombre:</label>
+                <input type="text" class="form-control" id="Nombre">
+            </div>
         </div>
-    </div>
-    <div class="form-group row">
-        <div class="col-xs-4">
-            <label for="FechaNacimiento">Fecha de Nacimiento:</label>
-            <input type="datetime" class="form-control" id="fechaN">
+        <div class="form-group row">
+            <div class="col-xs-4">
+                <label for="Usu">Usuario:</label>
+                <input type="text" class="form-control" id="Usuario">
+            </div>
         </div>
-    </div>
-    <div class="form-group row">
-        <div class="col-xs-4">
-            <label for="FechadeIngreso">Fecha de Ingreso:</label>
-            <input type="datetime" class="form-control" id="fechaI">
+        <div class="form-group row ">
+            <div class="col-xs-4">
+                <label for="Correo">Correo:</label>
+                <input type="email" class="form-control" id="Usuario">
+            </div>
         </div>
+
+        <div class="form-group row">
+            <div class="col-xs-4">
+                <label for="Contrasena">Contrasena:</label>
+                <input type="password" class="form-control" id="con">
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-xs-4">
+                <label for="Telefono">Telefono:</label>
+                <input type="text" class="form-control" id="tel">
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-xs-4">
+                <label for="FechaNacimiento">Fecha de Nacimiento:</label>
+                <input type="datetime" class="form-control" id="fechaN">
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-xs-4">
+                <label for="FechadeIngreso">Fecha de Ingreso:</label>
+                <input type="datetime" class="form-control" id="fechaI">
+            </div>
+        </div>
+
+        <button type="button" class="btn btn-info">
+        <span class="glyphicon glyphicon-file"></span> Nuevo</button>
+
+        <button type="button" class="btn btn-success">
+        <span class="glyphicon glyphicon-floppy-disk"></span> Guardar </button>
+
+        <button type="button" class="btn btn-danger">
+        <span class="glyphicon glyphicon-remove"></span>Eliminar</button>
+
     </div>
-    
+</div>
     
