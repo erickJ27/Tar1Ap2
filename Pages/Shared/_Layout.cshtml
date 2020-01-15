@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="~/css/site.css" />
     <link rel="stylesheet" href="~/css/estilo.css" />
 
-    <!-- Latest compiled and minified CSS -->
+   
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 <body>
@@ -16,7 +16,7 @@
         
         <nav class="navbar navbar-expand-sm bg-light">
 
-            <!-- Links -->
+            
             <nav class="navbar navbar-inverse">
                 <div class="container-fluid">
                     <div class="navbar-header">
@@ -30,7 +30,14 @@
                                 <li><a asp-page="/rUsuarios">Registro de usuarios</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">Consultas</a></li>
+                        <li>
+                            <a data-toggle="dropdown" href="#">Consultas<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a asp-page="/rUsuarios">Consulta de usuarios</a></li>
+                            </ul>
+                        </li>
+                        
+                       
                         <li><a href="#">Ayuda</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
