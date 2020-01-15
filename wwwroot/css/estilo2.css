@@ -1,8 +1,8 @@
-﻿.ancho {
-    width: 20%;
+﻿.ancho2 {
+    width: 10%;
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
-    padding: 56%;
+    /*padding: 56%;*/
     float: left;
 }
